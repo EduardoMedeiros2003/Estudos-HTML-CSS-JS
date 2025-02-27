@@ -51,4 +51,31 @@ body{
 
 .solid{
     border: 10px solid #FF3F19;
+    text-align: center;
+}
+
+.radius {
+    border: 10px solid #9f7b04;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.shadow{
+    background-color: darkslategray;
+    box-shadow: 5px 5px ;
+    text-align: center;
+}
+
+.efect_hover{
+    border: 10px solid #2c19a6;
+    background-color: rgb(150, 215, 255);
+    transition: 1s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.efect_hover:hover{
+    border: 10px solid rgb(150, 215, 255);
+    background-color: #2c19a6 rgb(150, 215, 255);
+    transition: 1s
 }
