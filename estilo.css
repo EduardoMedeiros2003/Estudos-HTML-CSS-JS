@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: aquamarine;
+}
+
+.grid{
+    width: 600px;
+    height: 500px;
+    background-color: black;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 30%;
+    margin-top: 8%;
+}
+
+.texto{
+    color: aliceblue;
+    text-align: center;
+}
+
+/* Estiliza todos os elementos gerados */
+p {
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div {
+    flex: auto;
+    display: grid;
+    justify-content:center;
+    align-items: center;
+    background-color: lightgray;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+section {
+    color: white;
+    background-color: darkgreen;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+    color: darkred;
+}
