@@ -1,0 +1,54 @@
+body{
+    background-color: #2341D5;
+}
+
+.divs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #393D55;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
+    border: 5px solid #2B2C33;
+    margin: 30px;
+    gap: 30px;
+}
+
+.dotted{
+    border: 10px dotted yellowgreen;
+    text-align: center;
+}
+
+.double{
+    border: 10px double green;
+    text-align: center;
+}
+
+.groove{
+    border: 10px groove #D5482C;
+    text-align: center;
+}
+
+.ridge{
+    border: 10px ridge #55403C;
+    text-align: center;
+}
+
+.inset{
+    border: 10px inset #90FF00;
+    text-align: center;
+}
+
+.outset{
+    border: 10px outset #88D523;
+    text-align: center;
+}
+
+.dashed{
+    border: 10px dashed #5B48D6;
+    text-align: center;
+}
+
+.solid{
+    border: 10px solid #FF3F19;
+}
