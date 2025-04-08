@@ -1,0 +1,40 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cronometro {
+    font-size: 60px;
+    color: #2b2f77;
+    margin-bottom: 30px;
+}
+
+.botoes {
+    display: flex;
+    gap: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #2b2f77;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1e215a;
+}
+
+.pausado{
+    color: red;
+}
