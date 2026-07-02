@@ -20,6 +20,11 @@ header{
     padding-top: 24px;
 }
 
+/* irmandade, pegando o irmao do nav para mostra ele quando apertado */
+
+input[type='checkbox']:checked~ nav{
+    display: block;
+}
 
 nav{
     display: none;
