@@ -1,3 +1,8 @@
+.categoria .section-title{
+    width: 312px;
+    margin: 0 auto;
+}
+
 .section-title{
     padding-top: 88px;
     padding-bottom: 32px;
@@ -27,6 +32,34 @@
     font-weight: var(--title--weight);
 }
 
+.trasfer{
+    margin: 10px 0 20px;
+}
+
+/* telas de desktop */
 @media screen and (min-width:768px){
+    .categorias .section-title{
+        width: 100%;
+    }
+    .categorias-cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
   
 }
+
+@media screen and (min-width:1024px){
+    .categorias-cards .carde{
+        width: 480px;
+    }
+
+}
+
+@media screen and (min-width:1440px){
+    .categorias-cards .carde{
+        width: 280px;
+    }
+
+}
+    
