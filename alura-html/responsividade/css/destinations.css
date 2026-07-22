@@ -5,3 +5,29 @@
     padding: 0;
     margin-bottom: 24px;
 }
+.img-item.tokyo{
+    background: url(../img/destino-Tokyo-mobile.jpg);
+    background-size:cover ;
+    width: 312px;
+    height: 360px;
+    gap: 24px;
+}
+.img-item.osaka{
+    background: url(../img/destino-Osaka-mobile.jpg);
+    background-size:cover ;
+    width: 312px;
+    height: 360px;
+    gap: 24px;
+}
+
+.titulo{
+    font-weight: var(--title--weight);
+    font-size: 28px;
+    font-style: bold;
+}
+.texto{
+    width: 312px;
+    height: 224px;
+    font-size: 20px;
+    font-weight: var(--text-weight);
+}
