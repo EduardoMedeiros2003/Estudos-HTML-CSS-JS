@@ -1,9 +1,21 @@
+.destinations{
+    width: 312px;
+    margin: 0 auto;
+}
+
 .destinations .item header{
     display: block;
     background-color: transparent;
     position: static;
     padding: 0;
     margin-bottom: 24px;
+}
+
+.destinations-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
 }
 .img-item.tokyo{
     background: url(../img/destino-Tokyo-mobile.jpg);
@@ -30,4 +42,46 @@
     height: 224px;
     font-size: 20px;
     font-weight: var(--text-weight);
+}
+
+.destinations .button{
+    width: 100%;
+}
+
+@media screen and (min-width:768px){
+    .destinations{
+        width: 648px;
+    }
+
+    .destinations.item.imgitem{
+        width: 100%;
+        height: 452px;
+    }
+
+    .destinations .item .img-item.tokyo{
+        background: url(../img/destino-Tokyo-tablet-desktop.jpg);
+        background-size: cover;
+    }
+
+    .destinations .item .img-item.osaka{
+        background: url(../img/destino-Osaka-tablet-desktop.jpg);
+        background-size: cover;
+    }
+
+    .destinations .button{
+        width: 280px;
+    }
+}
+@media screen and (min-width:1024px){
+    .destinations{
+        width: 980px;
+    }
+    
+}
+
+@media screen and (min-width:1024px){
+    .destinations{
+        width: 980px;
+    }
+    
 }
