@@ -53,7 +53,7 @@ section.hero{
 
 .section-title{
   width: 280px;
-  margin: 0 auto;
+  margin: 0 auto 32px;
 }
 
 .section-title h2{
@@ -87,6 +87,7 @@ section.hero{
 @media screen and (min-width:768px){
   section{
     width: 648px;
+    margin:0 auto ;
   }
 
   .section-title{
