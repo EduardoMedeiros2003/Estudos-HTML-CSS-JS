@@ -31,7 +31,7 @@
 .titulo{
     font-weight: var(--title--weight);
     font-size: 28px;
-    font-style: bold;
+    font-style: bold ;
 }
 .texto{
     width: 312px;

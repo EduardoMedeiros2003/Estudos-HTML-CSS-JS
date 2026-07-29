@@ -1,0 +1,74 @@
+.payments-h2{
+    font-size: 28px;
+}
+
+.titulo-payments{
+    width: 312px;
+    height: 68px;
+}
+
+.texto-payments{
+    width: 312px;
+    height: 160px;
+    line-height: 25px;
+}
+
+.image-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    height: 460px;
+    margin-top: 24px;
+    width: 100%;
+}
+
+.payments .content-container{
+    display: flex;
+}
+
+.image.bag{
+    background: url(../img/payments-beg.png);
+    background-size: cover;
+}
+
+.image.passport{
+    background: url(../img/payments-passport.png);
+    background-size: cover;}
+
+.people{
+    background: url(../img/payments-people.png);
+    background-size: cover;    
+}
+/* ultima class responsalvel por expandi um unico elemento */
+.payments .image-content .image.colaspan-2{
+    grid-column: span 2;
+}
+
+/* tablet */
+@media screen and (min-width:768px){
+    .image.bag{
+        background: url(../img/pyments-beg-tablet.png);
+        background-size: cover;
+    }
+
+    .image.passport{
+        background: url(../img/pyments-passport-tablet.png);
+        background-size: cover;}
+
+    .people{
+        background: url(../img/payments-people-tablet.png);
+        background-size: cover;    
+}
+   
+}
+
+
+/* desktop */
+@media screen and (min-width:440px){
+    .payments .content-container .texto-payments{
+        width: 360px;
+    }
+    .payments .content-container .image-content{
+        width: 790px;
+    }
+}
