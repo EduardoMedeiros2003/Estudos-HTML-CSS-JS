@@ -99,9 +99,6 @@
         align-items: flex-start;
         gap: 32px;
     }
-    .destinations{
-        width: 648px;
-    }
 
     .img-item.tokyo, .img-item.osaka{
         width: 588px;

@@ -22,9 +22,8 @@
     width: 100%;
 }
 
-.payments .content-container{
-    display: flex;
-}
+
+
 
 .image.bag{
     background: url(../img/payments-beg.png);
@@ -46,6 +45,13 @@
 
 /* tablet */
 @media screen and (min-width:768px){
+    .image-content .image{
+        flex: 1;
+        
+        
+        
+
+    }
     .image.bag{
         background: url(../img/pyments-beg-tablet.png);
         background-size: cover;
